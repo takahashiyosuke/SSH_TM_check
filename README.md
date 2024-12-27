@@ -163,5 +163,3 @@ docker run -d \
 4. **如何設定長輪詢 / Webhook？**  
    - 範例程式中使用 `getUpdates`（輪詢）方式；如需改用 Webhook，可參考 Telegram 官方文件或 `python-telegram-bot` 相關說明。
 ```
-
----
