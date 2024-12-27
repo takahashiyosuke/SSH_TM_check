@@ -7,8 +7,8 @@ import schedule
 # --------------------
 # 環境參數讀取
 # --------------------
-MACOS_HOST = ""     # 請依需求修改
-MACOS_USER = ""               # 請依需求修改
+MACOS_HOST = "192.168.0.1"     # 請依需求修改
+MACOS_USER = "username"               # 請依需求修改
 MACOS_PASSWORD = os.getenv("MACOS_PASSWORD")  # 無預設值，請於環境變數設定
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")  # 無預設值
